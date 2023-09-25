@@ -5,7 +5,9 @@ import Pay from './Components/Payments.jsx'
 import Loan from './Components/Loan.jsx'
 import Section from './Components/Section'
 import Earn from './Components/Earn.jsx'
-import Debit from './Components/Debit.jsx'
+import Day from './Components/Day.jsx'
+import Account from './Components/Account.jsx'
+import Footer from './Components/Footer.jsx'
 
 function App() {
   
@@ -18,7 +20,9 @@ function App() {
     <Loan />
     <Section />
     <Earn />
-    <Debit/>
+    <Day/>
+    <Account />
+    <Footer />
     </div>
   )
 }

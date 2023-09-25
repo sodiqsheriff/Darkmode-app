@@ -1,13 +1,13 @@
-import Day from  '../assets/atm.png'
+import cards from  '../assets/atm.png'
 
 
-const Debi =()=> {
+const Day =()=> {
 
     return(
        <>
-       <div className="flex flex-col-reverse px-5 md:flex md:flex-row justify-between items-center w-full my-24 md:px-32">
-        <div className="w-full md:w-1/2">
-            <h2 className="text-2xl font-semibold md:text-white md:text-4xl pb-6">
+       <div className="flex flex-col px-5 md:flex md:flex-row justify-between items-center w-full my-28 md:px-32">
+        <div className="w-full pb-7 md:w-1/2">
+            <h2 className="text-2xl text-white font-semibold md:text-white md:text-4xl md:pb-6">
                Grab an ALAT
                <h2>
                 Debit card for free
@@ -31,11 +31,11 @@ const Debi =()=> {
         </div>
 
         <div className="w-full md:w-1/2">
-          <img src={Day} alt="Day" className='md:w-4/5'/> 
+        <img src={cards} alt="Day" className='md:w-4/5'/> 
         </div>
        </div>
        </>
     )
 }
 
-export default Debit
+export default Day
