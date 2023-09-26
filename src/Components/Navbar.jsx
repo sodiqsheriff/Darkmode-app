@@ -1,10 +1,11 @@
+
 import Alat from "../assets/Logo.png";
 
 const Navbar = () =>{
 
     return(
      <>
-     <div className="pl-0 py-2 flexc-col md:flex flex-row justify-between  md: md:px-28 items-center">
+     <div className="pl-0 py-2 flexc-col md:flex flex-row justify-between  md: md:px-24 items-center">
         <div>
             <img src={Alat} alt="Alat" />
         </div>

@@ -31,10 +31,10 @@ const Footer =()=>{
     </div>
     </div>
 
-<div className="px-20 mb-0 md:flex justify-evenly w-full text-xs gap-10 md:mb-16">
+<div className="grid grid-cols-2  px-5  mb-0 md:flex md:flex-row justify-evenly w-full text-xs md:gap-10 md:mb-16 md:px-20">
 
-<div className='pb-4 md:pb-4'>
-<h1 className="text-pink-800 font-bold pb-2">Company</h1>
+<div className='pb-6 md:pb-4'>
+<h1 className=" text-pink-800 md:font-bold pb-2">Company</h1>
 <div className='leading-7 text-white'>
 <h6><a href="/" className=' capitalize'>about alat</a></h6>
 <h6><a href="/" className='  capitalize'>Wema Bank</a></h6>
@@ -70,7 +70,7 @@ const Footer =()=>{
 <div className='pb-4'>
 <img src={wema} alt="wema" />
 </div>
-<h1 className='text-pink-800 pb-5'>Connect with us:</h1>
+<h1 className='text-pink-800 pb-1 md:pb-5'>Connect with us:</h1>
 
 <div className="flex w-sm mb-16  md:flex md:justify-center overflow-x-hidden  items-center gap-1">
 <a href ="" ><img src={facebook} alt="facebook" className='pb-2' /></a>
@@ -84,7 +84,7 @@ const Footer =()=>{
 
 </div>
 
-<h1 className="text-xs text-center">© ALAT 2022 | All Rights Reserved.</h1>
+<h1 className="text-xs text-white text-center">© ALAT 2022 | All Rights Reserved.</h1>
 
 </>
 
