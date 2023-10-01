@@ -9,7 +9,7 @@ const Navbar = () =>{
      }
     return(
     //  <>
-     <div className= {isOpen ? ' px-3 py-3 flex justify-between items-center md:flex md:flex-row md:px-20' : 'px-3 py-3 flex justify-between items-center md:flex md:flex-row md:px-20'}>
+     <div className= {isOpen ? ' px-3 py-3 flex justify-between items-center md:flex md:flex-row md:px-20' : 'px-3 py-3 flex justify-between items-center md:flex md:flex-row md:px-12 lg:px-20'}>
         <div>
             <img src={Alat} alt="Alat" />
         </div>
@@ -20,13 +20,13 @@ const Navbar = () =>{
                 ): <MdOutlineClose className="text-2xl relative  top-0 right-0 text-white cursor-pointer md:hidden "/>}
        </div>
      {isOpen && ( 
-            <div className=" bg-black w-full h-full text-gray-600 absolute top-0 left-0 z-50 overflow-hidden shadow-2xl py-10 space-y-3 capitalize ps-5">
+            <div className=" bg-black w-full h-screen p-0 m-0  text-gray-600 absolute top-0 left-0 z-50 overflow-hidden shadow-2xl py-10 space-y-3 capitalize ps-5">
               <MdOutlineClose onClick={toggleMenu} className="text-2xl absolute top-0 right-0 h-24 w-8 text-white cursor-pointer  md:hidden "/>
             
                 <div className="hover:text-white hover:translate-y-1">
                     <a href="/">personal</a>
                 </div>
-                
+             <div className=""></div>
                 <div className="hover:text-white hover:translate-y-1">
                     <a href="/">business</a>
                 </div>
