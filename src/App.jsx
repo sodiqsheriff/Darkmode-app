@@ -13,7 +13,7 @@ function App() {
   
 
   return (
-    <div className='h-full bg-black'>
+    <div className='w-full h-full bg-black font-Inter'>
     <Navbar /> 
     <Hero />
     <Pay />
