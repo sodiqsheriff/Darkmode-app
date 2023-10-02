@@ -31,7 +31,7 @@ const Day =()=> {
         </div>
 
         <div className="w-full md:w-1/2">
-        <img src={cards} alt="Day" className='md:w-4/5'/> 
+        <img src={cards} alt="Day" className='lg:w-4/5'/> 
         </div>
        </div>
        </>

@@ -10,7 +10,7 @@ const Earn =()=>{
 
      
         <div className="w-full md:w-1/2">
-          <img src={Earnphone} alt="Earphone" className='md:w-4/5'/>
+          <img src={Earnphone} alt="Earphone" className='lg:w-4/5'/>
         </div>
 
         <div className="w-full md:w-1/2">

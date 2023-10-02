@@ -9,7 +9,7 @@ const Loan =()=>{
 
      
         <div className="w-full md:w-1/2">
-          <img src={Loanphone} alt="Loanphone" className='md:w-4/5'/>
+          <img src={Loanphone} alt="Loanphone" className='lg:w-4/5'/>
         </div>
 
         <div className="w-full md:w-1/2">
