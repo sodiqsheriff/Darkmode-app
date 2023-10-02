@@ -21,7 +21,7 @@ const Navbar = () =>{
        </div>
      {isOpen && ( 
             <div className=" bg-black w-full h-screen p-0 m-0  text-gray-600 absolute top-0 left-0 z-50 overflow-hidden shadow-2xl py-10 space-y-3 capitalize ps-5">
-              <MdOutlineClose onClick={toggleMenu} className="text-2xl absolute top-0 right-0 h-24 w-8 text-white cursor-pointer  lg:hidden "/>
+              <MdOutlineClose onClick={toggleMenu} className="text-2xl absolute top-0 right-0 h-24 w-10 pr-5 text-white cursor-pointer  lg:hidden "/>
             
                 <div className="hover:text-white hover:translate-y-1">
                     <a href="/">personal</a>
