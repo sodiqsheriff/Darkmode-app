@@ -8,7 +8,7 @@ const Account =()=> {
 
     return(
        
-       <div className="flex flex-col pl-5 pr-5 md:flex md:flex-row justify-between items-center w-full my-28 md:pl-32 md:pr-32">
+       <div className="flex flex-col pl-5 pr-5 md:flex md:flex-row justify-between items-center w-full my-28 md:pl-32 md:pr-25 lg:pl-32 lg:pr-32">
         <div className="w-full pb-7 md:w-1/2">
             <h2 className="text-sm text-white pb-3">Try ALAT today</h2>
             

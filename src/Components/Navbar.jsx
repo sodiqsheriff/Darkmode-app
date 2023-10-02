@@ -16,12 +16,12 @@ const Navbar = () =>{
 
         <div className="md:text-4xl" onClick={toggleMenu}>
             {!isOpen ? (
-                <GiHamburgerMenu className="text-3xl md:text-4xl text-white cursor-pointer lg:hidden"/>
+                <GiHamburgerMenu className="text-3xl md:text-5xl text-white cursor-pointer lg:hidden"/>
                 ): <MdOutlineClose className="text-2xl md:text-5xl relative  top-0 right-0 text-white cursor-pointer lg:hidden "/>}
        </div>
      {isOpen && ( 
             <div className=" bg-black w-full h-screen p-0 m-0  text-gray-600 absolute top-0 left-0 z-50 overflow-hidden shadow-2xl py-10 space-y-3 capitalize ps-5">
-              <MdOutlineClose onClick={toggleMenu} className="text-2xl md:text-5xl absolute top-0 right-0 w-16 h-24  pr-5 text-white cursor-pointer  lg:hidden "/>
+              <MdOutlineClose onClick={toggleMenu} className="text-2xl md:text-5xl md:w-20 absolute top-0 right-0 w-16 h-24  pr-5 text-white cursor-pointer  lg:hidden "/>
             
                 <div className="hover:text-white hover:translate-y-1">
                     <a href="/">personal</a>

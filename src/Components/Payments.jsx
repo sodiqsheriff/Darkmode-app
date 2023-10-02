@@ -31,7 +31,7 @@ const Pay =()=> {
         </div>
 
         <div className="w-full md:w-1/2">
-          <img src={Payphone} alt="Payphone" className='md:w-4/5'/>
+          <img src={Payphone} alt="Payphone" className='lg:w-4/5'/>
         </div>
        </div>
        </>
